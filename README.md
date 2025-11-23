@@ -1,5 +1,12 @@
 # Network Device Exporter
 
+[![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/marcoscartes/network-device-exporter/graphs/commit-activity)
+
+> *Developed with the assistance of Google's Gemini AI*
+
 A Python application that automatically discovers network devices, identifies them, scans for open ports, and exports metrics in Prometheus format. Includes a web dashboard for visualization.
 
 ## Features
@@ -150,10 +157,37 @@ The application automatically identifies device types:
 
 MIT License - See LICENSE file for details
 
+## Development
+
+This project was developed by **marcoscartes** with the assistance of **Google's Gemini AI**, which helped with:
+- Architecture design and code structure
+- Implementation of core features
+- Documentation and best practices
+- Testing and optimization
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+### Development Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/marcoscartes/network-device-exporter.git
+cd network-device-exporter
+
+# Install in development mode
+pip install -e .
+
+# Run tests (if available)
+pytest
+```
+
 ## Author
 
-Created by marcoscartes
+**marcoscartes**
+- GitHub: [@marcoscartes](https://github.com/marcoscartes)
+
+---
+
+*Made with ❤️ and AI assistance*
