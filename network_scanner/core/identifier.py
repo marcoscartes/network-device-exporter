@@ -75,6 +75,7 @@ COMMON_PORTS = [
     8000,  # Python HTTP
     8008,  # Google Home
     8081,  # Common alt HTTP
+    8090,  # Common alt HTTP
     8888,  # Jupyter
     9000,  # Portainer
     9090,  # Prometheus
